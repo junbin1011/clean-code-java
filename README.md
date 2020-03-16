@@ -67,9 +67,7 @@
 ### 使用可搜索的名称
 
 我们要阅读的代码比要写的代码多得多， 所以我们写出的代码的可读性和可搜索性是很重要的。 使用没有
-意义的变量名将会导致我们的程序难于理解， 将会伤害我们的读者， 所以请使用可搜索的变量名。 类似
-[buddy.js](https://github.com/danielstjules/buddy.js) 和 [ESLint](https://github.com/eslint/eslint/blob/660e0918933e6e7fede26bc675a0763a6b357c94/docs/rules/no-magic-numbers.md)
-的工具可以帮助我们找到未命名的常量。
+意义的变量名将会导致我们的程序难于理解， 将会伤害我们的读者， 所以请使用可搜索的变量名。
 
 **不好的：**
 ```
@@ -192,7 +190,7 @@
 void createMenu(String title,String body,String buttonText,boolean cancellable){}
 ```
 
-**好的：
+**好的**：
 ```
  class MenuConfig{
             String title;
@@ -1679,3 +1677,8 @@ SonarLint是一个IDE扩展，可帮助您在编写代码时检测和修复质�
 
 **[⬆ 返回顶部](#代码整洁的-Java)**
 --
+
+# 谜题
+程序员在背负期限的压力下，只好追求快速的开发速度，于是为代码制造了混 乱，却认为自己因此没法做到更快。
+
+制造混乱只会立刻拖慢你，叫你错过期限。赶上期限的唯一方法、做得快的唯一方法就是始终尽可能保持代码整洁。
